@@ -6,7 +6,7 @@
 %define	pdir	File
 %define	pnam	Modified
 Summary:	File::Modified - checks intelligently if files have changed
-Summary(pl):	File::Modified - inteligentne sprawdzanie, czy pliki uleg³y zmianie
+Summary(pl.UTF-8):   File::Modified - inteligentne sprawdzanie, czy pliki ulegÅ‚y zmianie
 Name:		perl-File-Modified
 Version:	0.07
 Release:	1
@@ -32,16 +32,16 @@ features, so if this module doesn't do what you need, maybe
 File::Signature does. There also is quite some overlap between the two
 modules, code wise.
 
-%description -l pl
-Modu³ Modified ma s³u¿yæ programom za prost± metodê sprawdzania czy
-pliki konfiguracyjne (lub modu³y na których polegaj±) siê zmieni³y.
-Aktualnie s± zaimplementowane dwie metody sprawdzania zmian: mtime i
-MD5. Metoda MD5 bêdzie dzia³aæ jako mtime je¶li modu³ Digest::MD5
-bêdzie niedostêpny.
+%description -l pl.UTF-8
+ModuÅ‚ Modified ma sÅ‚uÅ¼yÄ‡ programom za prostÄ… metodÄ™ sprawdzania czy
+pliki konfiguracyjne (lub moduÅ‚y na ktÃ³rych polegajÄ…) siÄ™ zmieniÅ‚y.
+Aktualnie sÄ… zaimplementowane dwie metody sprawdzania zmian: mtime i
+MD5. Metoda MD5 bÄ™dzie dziaÅ‚aÄ‡ jako mtime jeÅ›li moduÅ‚ Digest::MD5
+bÄ™dzie niedostÄ™pny.
 
-Istnieje inny modu³ - File::Signature - maj±cy wiele podobnych cech,
-wiêc je¶li ten modu³ nie jest tym co potrzeba, mo¿e File::Signature
-jest. Modu³y te pokrywaj± siê czê¶ciowo tak¿e pod wzglêdem kodu.
+Istnieje inny moduÅ‚ - File::Signature - majÄ…cy wiele podobnych cech,
+wiÄ™c jeÅ›li ten moduÅ‚ nie jest tym co potrzeba, moÅ¼e File::Signature
+jest. ModuÅ‚y te pokrywajÄ… siÄ™ czÄ™Å›ciowo takÅ¼e pod wzglÄ™dem kodu.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
