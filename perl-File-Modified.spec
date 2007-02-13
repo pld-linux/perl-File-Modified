@@ -6,7 +6,7 @@
 %define	pdir	File
 %define	pnam	Modified
 Summary:	File::Modified - checks intelligently if files have changed
-Summary(pl.UTF-8):   File::Modified - inteligentne sprawdzanie, czy pliki uległy zmianie
+Summary(pl.UTF-8):	File::Modified - inteligentne sprawdzanie, czy pliki uległy zmianie
 Name:		perl-File-Modified
 Version:	0.07
 Release:	1
