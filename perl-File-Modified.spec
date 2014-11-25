@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define	pdir	File
 %define	pnam	Modified
+%include	/usr/lib/rpm/macros.perl
 Summary:	File::Modified - checks intelligently if files have changed
 Summary(pl.UTF-8):	File::Modified - inteligentne sprawdzanie, czy pliki uległy zmianie
 Name:		perl-File-Modified
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	271a991b96ccbdaeb7098272c9f97d51
+URL:		http://search.cpan.org/dist/File-Modified/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
