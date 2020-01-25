@@ -4,7 +4,6 @@
 
 %define	pdir	File
 %define	pnam	Modified
-%include	/usr/lib/rpm/macros.perl
 Summary:	File::Modified - checks intelligently if files have changed
 Summary(pl.UTF-8):	File::Modified - inteligentne sprawdzanie, czy pliki uległy zmianie
 Name:		perl-File-Modified
