@@ -8,7 +8,7 @@ Summary:	File::Modified - checks intelligently if files have changed
 Summary(pl.UTF-8):	File::Modified - inteligentne sprawdzanie, czy pliki uległy zmianie
 Name:		perl-File-Modified
 Version:	0.07
-Release:	2
+Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
